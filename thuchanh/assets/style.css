@@ -50,7 +50,6 @@ p{
 .bg-primary-300{
     background-color: var(--color-primary-300, '#15803d');
 }
-
 .text-primary{
     color: var(--color-primary, '#00adb0');
 }
