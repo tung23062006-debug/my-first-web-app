@@ -1,0 +1,215 @@
+/* Dùng để setup các class liên quan đến flexbox */
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.d-inline{
+    display: inline;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-row{
+    /* default value */
+    flex-direction: row; 
+}
+.flex-row-reverse{
+    flex-direction: row-reverse; 
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-nowrap{
+    /* default value */
+    flex-wrap: nowrap;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.justify-start{
+    /* default value */
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.items-start{
+    align-items: start;
+}
+.items-end{
+    align-items: end;
+}
+.items-center{
+    align-items:center
+}
+.items-stretch{
+    align-items: stretch;
+}
+.items-baseline{
+    align-items: baseline;
+}
+
+.order-0{
+    order: 0;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.align-items-start{
+    align-items: flex-start !important;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+.grow-3{
+    flex-grow: 3;
+}
+
+.container-fluid{
+    width: 100%;
+}
+.container{
+    /* Tạo vùng content */
+    max-width: 1240px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+/* .col-x{
+    width: calc(100% / 12 ) *x
+} */
+
+.col-1{
+    width: calc((100% / 12) * 1);
+    padding: 8px;
+    box-sizing: border-box; 
+}
+.col-2{
+    width: calc((100% / 12) * 2);
+    padding: 8px;
+    box-sizing: border-box; 
+}
+.col-xl-2{
+    flex:auto;
+    width: calc((100% - 33.333333%)/4);
+}
+.col-3{
+    width: calc((100% / 12) * 3);
+    /* padding: 8px; */
+    box-sizing: border-box;
+}
+
+.col-4{
+    width: calc((100% / 12) * 4);
+    padding: 8px;
+    box-sizing: border-box; 
+}
+.col-np-4{
+    width: calc((100% / 12) * 4);
+    box-sizing: border-box;
+}
+
+.col-xl-4{
+    
+    width: 33.333333%;
+}
+.col-6{
+    width: calc((100% / 12) * 6);
+    padding: 8px;
+    box-sizing: border-box; 
+}
+
+.col-12{
+    width: calc((100% / 12) * 12);
+    padding: 8px;
+    box-sizing: border-box; 
+}
+.col-pr-12{
+    width: calc((100% / 12) * 12);
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+.gap-x-1{
+    column-gap: 4px;
+}
+.gap-x-2{
+    column-gap: 8px;
+}
+.gap-x-3{
+    column-gap: 12px;
+}
+.gap-x-4{
+    column-gap: 16px;
+}
+
+
+.font-size-11{
+    font-size:11px !important;
+}
+.font-size-14{
+    font-size:14px !important;
+}
+.font-size-20{
+    font-size:20px !important;
+}
+.font-size-60{
+    font-size: 60px !important;
+}
+.h-100{
+    height: 100%;
+}
+.w-20{
+    width: 20px;
+}
+
+.w-100{
+    width: 100%;
+}
+.pointer{
+    cursor:  pointer !important;
+}
+
+.h-300
+{
+    height: 300px;
+}
